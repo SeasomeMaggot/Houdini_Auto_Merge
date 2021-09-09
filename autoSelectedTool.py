@@ -3,8 +3,7 @@ tupleLen = len(selected)
 
 if tupleLen is 0:
 
-    raise hou.Error("Select the fvcking nodes before merging!!!")
-    print("先TM选节点再合并!!!")
+    raise hou.Error("Select the nodes before merging!!!")
     
 else:
   
